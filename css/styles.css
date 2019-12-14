@@ -1,0 +1,34 @@
+.logo {
+    width: 400px;
+    height: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    
+
+}
+
+
+.background {
+width:100%;
+height: 95vh;
+background-color: #4893FF;
+}
+
+.background_img{
+    width:100vw;
+    height: 90%;
+}
+
+.text-center{
+    font-family: 'Lilita One', cursive;
+    color: white;
+}
+
+.container{
+    height: 95vh;
+}
+/* 
+font-family: 'Lilita One', cursive;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Luckiest Guy', cursive; */
