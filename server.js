@@ -1,6 +1,6 @@
 // Dependencies
 
-var express =require("express");
+var express = require("express");
 
 // set up the Express app
 var app = express();
@@ -14,8 +14,9 @@ app.use(express.json());
 
 // ROUTER
 
-require("./routes/api-routes")(app);
-require("./routes/html-routes")(app);
+
+var apiroutes =require("./routes/api-routes")
+var htmlroutes =require("./routes/html-routes")
 
 // LISTENER
 app.listen(PORT, function () {
