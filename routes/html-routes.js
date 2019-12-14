@@ -1,3 +1,5 @@
+var app = express();
+
 // get requests to display html pages
 
 app.get("/tables", function (req, res) {
