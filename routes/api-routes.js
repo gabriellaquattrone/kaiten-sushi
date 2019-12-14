@@ -3,6 +3,7 @@
 var tableData = require("../data/table-data");
 var waitData = require("../data/wait-data");
 
+var app = express();
 
 module.exports = function (app) {
 
