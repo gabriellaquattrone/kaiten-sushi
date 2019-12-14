@@ -1,5 +1,6 @@
-var app = express();
+var express = require('express');
 var path = require("path");
+var app = express();
 // get requests to display html pages
 
 
