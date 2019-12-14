@@ -1,7 +1,7 @@
 // Data from data files
 
-var tableData = require("..data/table-data");
-var waitData = require("..data/wait-data");
+var tableData = require("../data/table-data");
+var waitData = require("../data/wait-data");
 
 
 module.exports = function (app) {
