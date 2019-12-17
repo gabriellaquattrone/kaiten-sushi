@@ -7,7 +7,9 @@
     
 
 }
-
+.list-group-item{
+    color: black;
+}
 .center{
     display: flex;
     justify-content: center;
@@ -27,15 +29,28 @@
 background-color:darkgray;
 }
 
-.button{
-    background-color: ;
+body {
+    background-repeat: repeat-y;
+    background-color: darkgray;
 }
 
+.btn-danger{
+    background-color: #4993ff;
+    height: 6vh;
+}
+.btn-default{
+    background-color: white;
+}
+.row {
+    height: 100vh;
+}
 .container_right{
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 100%;
     background-color: #F15A24;
+    background-size: 50vw 100vh;
+    background-repeat: repeat-y;
     justify-content: center;
     align-items: center;
 }
@@ -43,10 +58,12 @@ background-color:darkgray;
 .container_left{
     display: flex;
     flex-direction: row;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    
-
+}
+.card-header{
+    background-color: #88837d;
 }
 /* 
 font-family: 'Lilita One', cursive;

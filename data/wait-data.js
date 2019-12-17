@@ -2,10 +2,10 @@
 
 waitArray = [
     {
-        guestName: "You",
-        guestEmail: "something2@email.com",
-        guestId: "id1111",
-        guestPhone: "555-555-5556"
+        customerName: "Gabby",
+        customerEmail: "gabby@email.com",
+        customerID: "1",
+        phoneNumber: "555-555-5556"
     }
 ];
 

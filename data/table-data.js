@@ -2,10 +2,10 @@
 
 tableArray = [
     {
-        guestName: "Me",
-        guestEmail: "something@email.com",
-        guestId: "id1111",
-        guestPhone: "555-555-5555"
+        customerName: "Rob",
+        customerEmail: "something@email.com",
+        customerID: "0",
+        phoneNumber: "555-555-5555"
     }
 ];
 
